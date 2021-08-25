@@ -30,69 +30,79 @@
         rel="stylesheet">
 </head>
 
-<body class="work-pagebody">
+<body>
+    <div class="workbg">
+        <header>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <a class="navbar-brand nav-logo" href="index.html"><img alt="Valery Nguyen's Portfolio Home"
+                            src="logo/w-v.png"></a>
+                    <button class="navbar-toggler collapsed menubtn" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <div class="animated-menu"><span></span><span></span><span></span></div>
+                    </button>
+                    <div class="collapse navbar-collapse">
+                        <div class="navbar-nav">
+                            <a class="navlink" href="index.html">HOME</a>
+                            <a class="navlink" href="about.html">ABOUT</a>
+                            <a class="navlink current-link" href="projects.html">PROJECTS</a>
+                            <a class="navlink" href="skills.html">SKILLS</a>
+                        </div>
+                    </div>
+                    <div class="collapse mobilenav" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="navlink" href="index.html">&#187; Home</a>
+                            <a class="navlink" href="about.html">&#187; About</a>
+                            <a class="navlink m-current-link" href="projects.html">&#187; Projects</a>
+                            <a class="navlink" href="skills.html">&#187; Skills</a>
+                            <a class="navlink" href="mailto:madebyval@outlook.com">&#187; Contact</a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <a href="mailto:madebyval@outlook.com"><button class="nav-contact"
+                                id="contact-btn">CONTACT</button></a>
 
-    <header>
-        <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand nav-logo" href="index.html"><img alt="Valery Nguyen's Portfolio Home"
-                    src="logo/w-v.png"></a>
-            <button class="navbar-toggler collapsed menubtn" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <div class="animated-menu"><span></span><span></span><span></span></div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="projects-intro">
+            <div class="about-column">
+                <h2>My Projects</h2>
+                <p class="about-txt">
+                    Although I have not had any formal work experience as a developer, I have taken the initiative to
+                    build my skills via personal projects. What could be more fun than lounging on the couch with my dog
+                    and coding the night away in Visual Studio Code!? I’m totally serious! Defining id and class
+                    selectors and picking color palettes makes my &hearts; really happy! Check out more details about
+                    the
+                    projects I have done below and keep an eye out for more to be added in the future!
+                </p>
+            </div>
+            <div class="graphic-column2">
+                <img aria-hidden="true" class="icon-projects fadein" src="images/laptop.png">
+            </div>
+        </section>
+
+        <div class="about-downarrow">
+            <button role="group" onclick=" myFunction()" class="down-icon" aria-label="Scroll to next section">
+                <svg role="img" version="1.0" xmlns="http://www.w3.org/2000/svg" width="68.000000pt"
+                    height="72.000000pt" viewBox="0 0 68.000000 72.000000" preserveAspectRatio="xMidYMid meet">
+                    <metadata>
+                        Created by potrace 1.10, written by Peter Selinger 2001-2011
+                    </metadata>
+                    <g transform="translate(0.000000,72.000000) scale(0.100000,-0.100000)" stroke="none">
+                        <path d="M0 613 l0 -108 162 -93 c94 -54 170 -92 182 -90 12 2 92 44 178 93
+               l158 90 0 108 c0 99 -1 107 -19 107 -11 0 -88 -41 -170 -91 l-151 -90 -151 90
+               c-84 50 -160 91 -170 91 -17 0 -19 -9 -19 -107z" />
+                        <path d="M0 293 l0 -108 161 -92 c88 -51 169 -93 179 -93 10 0 91 42 179 93
+               l161 92 0 108 c0 99 -1 107 -19 107 -11 0 -88 -41 -170 -91 l-151 -90 -151 90
+               c-82 50 -159 91 -170 91 -18 0 -19 -8 -19 -107z" />
+                    </g>
+                </svg>
             </button>
-            <div class="collapse navbar-collapse">
-                <div class="navbar-nav">
-                    <a class="navlink" href="index.html">HOME</a>
-                    <a class="navlink" href="about.html">ABOUT</a>
-                    <a class="navlink current-link" href="projects.html">PROJECTS</a>
-                    <a class="navlink" href="skills.html">SKILLS</a>
-                </div>
-            </div>
-            <div class="collapse mobilenav" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="navlink" href="index.html">HOME</a>
-                    <a class="navlink" href="about.html">ABOUT</a>
-                    <a class="navlink m-current-link" href="projects.html">PROJECTS</a>
-                    <a class="navlink" href="skills.html">SKILLS</a>
-                </div>
-            </div>
-            <div class="collapse navbar-collapse">
-                <a href="mailto:madebyval@outlook.com"><button class="nav-contact" id="contact-btn">CONTACT</button></a>
-
-            </div>
-            </div>
-        </nav>
-    </header>
-
-    <section class="workbg">
-        <div class="work-intro">
-            <h2 class="slidein">Projects I've Done</h2>
-            <p class="slidein">
-                Although I have not had any formal work experience as a developer, I have taken the initiative to build
-                my skills via personal projects. Some of my work includes accordions to display product details,
-                captivating full height heroes, functional tabs for FAQ pages, and creating business intelligence from
-                data with Plotly graphs and interactive dashboards. </p>
         </div>
-    </section>
-
-    <div class="about-downarrow">
-        <button role="group" onclick=" myFunction()" class="down-icon" aria-label="Scroll to next section">
-            <svg role="img" version="1.0" xmlns="http://www.w3.org/2000/svg" width="68.000000pt" height="72.000000pt"
-                viewBox="0 0 68.000000 72.000000" preserveAspectRatio="xMidYMid meet">
-                <metadata>
-                    Created by potrace 1.10, written by Peter Selinger 2001-2011
-                </metadata>
-                <g transform="translate(0.000000,72.000000) scale(0.100000,-0.100000)" stroke="none">
-                    <path d="M0 613 l0 -108 162 -93 c94 -54 170 -92 182 -90 12 2 92 44 178 93
-                   l158 90 0 108 c0 99 -1 107 -19 107 -11 0 -88 -41 -170 -91 l-151 -90 -151 90
-                   c-84 50 -160 91 -170 91 -17 0 -19 -9 -19 -107z" />
-                    <path d="M0 293 l0 -108 161 -92 c88 -51 169 -93 179 -93 10 0 91 42 179 93
-                   l161 92 0 108 c0 99 -1 107 -19 107 -11 0 -88 -41 -170 -91 l-151 -90 -151 90
-                   c-82 50 -159 91 -170 91 -18 0 -19 -8 -19 -107z" />
-                </g>
-            </svg>
-        </button>
     </div>
     <section class="gallery">
         <svg class="separator" width="100%" height="120" viewBox="0.1 0.1 180 40" preserveAspectRatio="none">
@@ -109,11 +119,10 @@
             <span><img class="right-arrow" src="images/icon-rightv.png">
                 <h3>Bark Rangers</h3>
                 <p class="projects-desc">I started my developing journey by customizing a Shopify site for my crafting
-                    hobby, Bark Rangers! I
-                    utilized one of their commercial off the shelf products for the backend and customized the front-end
-                    portion. I created captivating full height heroes to convey a lifestyle brand, functional tabs to
-                    display
-                    product information, a compelling photo grid of customer reviews, and much more!
+                    hobby, Bark Rangers! I utilized one of their commercial off the shelf products for the backend and
+                    customized the front-end portion. I created captivating full height heroes to convey a lifestyle
+                    brand, functional tabs to display product information, a compelling photo grid of customer reviews,
+                    a user-friendly FAQ page, and even fixed all of the responsive issues from the original code!
                 </p>
                 <p class="tech">Shopify | Liquid | HTML | CSS | Javascript</p>
                 <div class="mobileonly">
@@ -179,12 +188,12 @@
                 <h3>Bark Dashboard</h3>
                 <p class="projects-desc">
                     To further practice my coding, I built an interactive dashboard that visualizes data I collect from
-                    my
-                    shop. The dashboard consists of sections with previous year revenue as well as current sales goals.
-                    It
-                    also
-                    features graphs that show popular product categories, popular sizes and colors, access points,
-                    etc.</p>
+                    my shop. The dashboard consists of sections with sales goals, revenue and percent-to-goal data by
+                    each month and year! I utilize graphs that show popular product categories, popular sizes and
+                    colors, site traffic sources, and an interactive map to show where dog owners are, including the dog
+                    bandanna sizes in each area. Because this contains sensitive data from my shop, I do not have this
+                    site published online. However, I’m happy to showcase it through a screen share meeting!</p>
+
                 <p class="tech">HTML | CSS | Javascript | Bootstrap | Plotly | Leaflet | SQL</p>
                 <div class="mobileonly">
                     <hr class="hr-gradient">
@@ -230,17 +239,11 @@
             <span>
                 <img class="right-arrow" src="images/icon-rightv.png">
                 <h3>made by Val</h3>
-                <p class="projects-desc">Of course, the portfolio you are looking at now was developed by me, hence
-                    the
-                    name! I use this
-                    site
-                    to
-                    practice what I learned from developing Bark Rangers and update it with things I learn from class. I
-                    added
-                    animations to make the site come alive! I also learned how to create my own graphics such as the
-                    icons
-                    and
-                    backgrounds you see (I hope you like it)! </p>
+                <p class="projects-desc">Of course, the portfolio you are looking at now was developed by me, hence the
+                    name! I coded this site from scratch to practice what I learned from developing Bark Rangers, along
+                    with skills I acquired from classes. I added animations to make the site come alive, made sure every
+                    element is responsive, and designed my own graphics such as the icons and backgrounds you see. I
+                    hope you like it!</p>
                 <p class="tech">HTML | CSS | Javascript | Bootstrap | Photoshop | Github</p>
             </span>
             <span class="p-img"><img class="ss" src="screenshots/ss-madebyval.png">
@@ -295,7 +298,7 @@
 
 
         <section class="connect">
-            <h2>Let's Connect!</h2>
+            <h2>Intrigued? Ask me questions!</h2>
             <hr class="hr-short">
             <div class="contact-container">
                 <div class="contact-links">
