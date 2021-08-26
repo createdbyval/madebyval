@@ -321,27 +321,29 @@ button.nav-contact:hover, button.nav-contact:active {
 @media (max-width: 767px) {
     .navbar-nav {
         text-align: left;
-        background-color:  rgba(25, 123, 132, .95); 
-        padding: 75px 0px;
+        background-color:  rgb(25, 123, 132); 
+        padding: 30px 0px;
         border-bottom: none;
     }
     .navbar-nav a {
         font-size: 2rem;
-        padding: 10px 0px;
+        padding: 13px 0px;
         color:#F8F4F1;
         font-family: 'Playball', cursive;
         letter-spacing: 3px;  
     }
     
-    .navbar-nav a:hover, .current-link:hover{
+    .navbar-nav a:hover,  .navbar-nav a:active{
         padding: 10px 0px;
-        color:#EFC4B3;
         border-bottom: none;
+        transform: scale(1.15);
+        transition: .3s ease;
+
     }   
 }
 a.m-current-link{
-    padding: 10px 0px;
-    color:#E3F2F0;
+    padding: 13px 0px;
+    color:#EFC4B3;
 }  
 
 /* HOME WELCOME HERO */
@@ -385,6 +387,11 @@ a.m-current-link{
     height: 30%;
     }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    #hero-val{
+        height: 35%;
+        }
+}
 .logo-animation {
     display: flex;
     flex-direction: column;
@@ -418,6 +425,11 @@ a.m-current-link{
     height: 30%;
     }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    #hero-madeby{
+        height: 35%;
+        }
+}
 .fadein1 {
     animation-name: fadein;
     animation-duration: 3s;
@@ -425,7 +437,7 @@ a.m-current-link{
     animation-fill-mode: forwards;
 }
 #arrow-section{
-    bottom: 1%;
+    bottom: 5%;
     position: absolute;
     width: 100%;
 }
