@@ -1119,6 +1119,7 @@ img.icon-projects {
 .ss {
     margin-top: 15px;
     max-width: 100%;
+    min-height: 200px;
     box-shadow: 2px 2px 6px #d4d0cd;
     display: block;
     background-color: #83C5BE;
@@ -1129,6 +1130,7 @@ img.icon-projects {
         padding-left: 0;
         margin-bottom: 0;
         max-width: 100%;
+        min-height: 170px;
         display: block;
         background-color: #83C5BE;
     }
