@@ -229,7 +229,7 @@ button.nav-contact{
 button.nav-contact:hover, button.nav-contact:active {
     background-image: radial-gradient(#E3F2F0, #83C5BE);
     border: 2px solid #83C5BE;
-    color:#197B84; 
+    color:#146067; 
 }
 .nav-logo img{
     height: 60px;
@@ -530,7 +530,8 @@ a.m-current-link{
 }
 .panel h2{
     margin-top: 20px;
-    color: #DF8768;
+    /* color: #DF8768; */
+    color: #197b84;
     font-weight: 800;
     font-size: 2.5rem;
     padding-bottom: 10px;
@@ -718,7 +719,7 @@ footer span:first-of-type {
 .intro h1 {
     padding-bottom: 20px;
     letter-spacing: 5px;
-    color: #DF8768;
+    color: #D9704A;
     animation: slidein 1.5s ease;
 }
 .about-column {
@@ -871,12 +872,12 @@ img.headshot{
 }
 .iconcolumn h3 {
 padding-bottom: 10px;
-color: #DF8768;
-font-weight: 700;
+color: #D9704A;
+font-weight: 800;
 letter-spacing: 2px
 }
 .iconcolumn h5 {
-    color: #197b84;
+    color: #146067;
     letter-spacing: 3px
     
     }
@@ -890,6 +891,7 @@ letter-spacing: 2px
     font-size: 1.3rem;
     padding: 25px 15px 0 15px;
     line-height: 1.5;
+    color: #197b84;
 }
 @media (max-width: 767px) {
     .textcolumn {
@@ -1115,7 +1117,7 @@ img.icon-projects {
     padding-left: 50px;
     font-size: 1rem;
     line-height: 1.5;
-    color: #197b84;
+    color: #146067;
     font-weight: 700;
 }
     @media (max-width: 767px) {
@@ -1207,15 +1209,15 @@ img:not([src]) {
     }
 .projects-btn button:hover, .projects-btn button:active {
     background-image: radial-gradient(#E3F2F0, #83C5BE);
-    color:#197B84; 
+    color:#146067; 
 }
 .right-arrow {
     width: 30px;
     filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.1));
 }
-.right-arrow, .project-wrapper h3 {
+.right-arrow, .project-wrapper h2 {
     display: inline-block;
-    color:#DF8768;
+    color:#197b84;
     text-shadow: 2px 1px #e4d4c9;
 }
 .popup {
