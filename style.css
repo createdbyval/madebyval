@@ -1118,23 +1118,28 @@ img.icon-projects {
 }
 .ss {
     margin-top: 15px;
-    max-height: 318px;
     max-width: 100%;
     box-shadow: 2px 2px 6px #d4d0cd;
-    background-color: #83C5BE;
     display: block;
-    color: #197B84;
+    background-color: #83C5BE;
+
 }
 @media (max-width: 767px) {
     .ss {
         padding-left: 0;
         margin-bottom: 0;
+        max-width: 100%;
+        display: block;
+        background-color: #83C5BE;
     }
 }
 @media (min-width: 768px) and (max-width: 1025px){
     .ss {
         padding-left: 0;
         margin-bottom: 0;
+        display: block;
+        max-width: 100%;
+        background-color: #83C5BE;
     }
 }
 img[src=""],
