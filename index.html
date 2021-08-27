@@ -15,6 +15,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Polyfill Smoothscroll -->
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
     <!-- Javascript -->
     <script type="text/javascript" src="logic.js" defer></script>
 
@@ -74,8 +77,9 @@
 
         <div class="hero">
             <div class="logo-animation">
-                <img aria-hidden="true" id="hero-val" class="fadein2" src="logo/w-val.png">
-                <img aria-hidden="true" id="hero-madeby" class="fadein1" src="logo/w-madeby.png">
+
+                <img alt="made by" aria-hidden="true" id="hero-madeby" class="changesize" src="logo/w-madeby.png">
+                <img alt="Val" id="hero-val" class="changesize" src="logo/w-val.png">
             </div>
             <div id="arrow-section">
                 <button role="group" onclick=" myFunction()" class="down-icon" aria-label="Scroll to next section">
@@ -100,21 +104,21 @@
 
     <main id="scrollto-main" class="main-home">
         <div class="panel">
-            <a role="group" class="category" href="about.html">
+            <a role="group" aria-label="About Valery Nguyen" class="category" href="about.html">
                 <div class="c-wrapper">
-                    <img aria-hidden="true" alt="About Val" class="category-icons" src="images/icon-me.png">
+                    <img aria-hidden="true" class="category-icons" src="images/icon-me.png">
                     <h2>About</h2>
                     <h4>Valery Nguyen</h4>
                 </div>
             </a>
-            <a role="group" class="category" href="projects.html">
+            <a role="group" aria-label="Valery's Projects" class="category" href="projects.html">
                 <div class="c-wrapper">
                     <img aria-hidden="true" class="category-icons" src="images/icon-projects.png">
                     <h2>Projects</h2>
                     <h4>Work Examples</h4>
                 </div>
             </a>
-            <a role="group" class="category" href="skills.html">
+            <a role="group" aria-label="Valery's Skills" class="category" href="skills.html">
                 <div class="c-wrapper">
                     <img aria-hidden="true" class="category-icons" src="images/icon-skills.png">
                     <h2>Skills</h2>
@@ -195,7 +199,8 @@
     </div>
 
     <footer>
-        <span><a aria-hidden="true" href="index.html"><img class="footer-logo" src="logo/w-v.png"></a></span>
+        <span><a aria-label="Go to home page" href="index.html"><img alt="V logo" class="footer-logo"
+                    src="logo/w-v.png"></a></span>
         <span>
             <a class="footer-links" href="index.html">Home</a>|
             <a class="footer-links" href="about.html">About</a>|

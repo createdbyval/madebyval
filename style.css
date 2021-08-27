@@ -61,11 +61,11 @@ li {
 }
 h1 {
     font-family: 'Playball', cursive;
-    font-size: 3em;
+    font-size: 2.6em;
 }
 h2 {
     font-family: 'Playball', cursive;
-    font-size: 2.5em;
+    font-size: 2.4em;
 }
 h3 {
     font-family: 'Playball', cursive;
@@ -377,11 +377,27 @@ a.m-current-link{
 .hero div {
     width: 100%;
 }
+@keyframes changesize {
+    0% {
+        opacity:0;
+        transform: scaleX(2);
+        top: 0;
+
+    }
+    100% {
+        opacity:1;
+        transform: scaleX(1);
+        top: 30%;
+    }
+  }
 #hero-val{
     position: absolute;
     top: 30%;
     width: 330px;
     opacity: 0;
+    animation: changesize 1s ease;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
 }
 @media (max-width: 767px) {
     #hero-val{
@@ -397,12 +413,6 @@ a.m-current-link{
     text-align: center;
     
 }
-.fadein2 {
-    animation-name: fadein;
-    animation-duration: 2s;
-    animation-delay: 1.2s;
-    animation-fill-mode: forwards;
-  }
   @keyframes fadein {
     0% {
         opacity:0;
@@ -416,17 +426,15 @@ a.m-current-link{
     top: 30%;
     width: 330px;
     opacity: 0; 
+    animation: changesize 1s ease;
+    animation-fill-mode: forwards;
+    animation-delay: .7s;
+
 }
 @media (max-width: 767px) {
     #hero-madeby{
         width: 250px;
     }
-}
-.fadein1 {
-    animation-name: fadein;
-    animation-duration: 3s;
-    animation-delay: .7s;
-    animation-fill-mode: forwards;
 }
 #arrow-section{
     bottom: 5%;
@@ -1011,7 +1019,7 @@ img.contact-icon:hover, img.contact-icon:active {
         }
     }
 
-.projects-intro h2{
+.projects-intro h1{
     animation: slidein 1s ease;
     padding-bottom: 20px;
 }
@@ -1255,6 +1263,13 @@ img:not([src]) {
 
 
 /* SKILLS PAGE */
+.skills {
+    width: 100%;
+    margin-top:30px;
+    text-align: center;
+    text-decoration: underline;
+
+}
 .honeycomb {
     display: flex;
     flex-wrap: wrap;
