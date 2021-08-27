@@ -52,6 +52,10 @@ body {
 * {
     box-sizing: border-box;
   }
+img.lazy {
+    background: #197b84;
+    width: 100%;
+  }
 ul {
     list-style-type: none;
 }
@@ -379,19 +383,15 @@ a.m-current-link{
 #hero-val{
     position: absolute;
     top: 30%;
-    height: 40%;
+    width: 330px;
     opacity: 0;
 }
 @media (max-width: 767px) {
     #hero-val{
-    height: 30%;
+    width: 250px;
     }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
-    #hero-val{
-        height: 35%;
-        }
-}
+
 .logo-animation {
     display: flex;
     flex-direction: column;
@@ -417,18 +417,13 @@ a.m-current-link{
 #hero-madeby{
     position: absolute;
     top: 30%;
-    height: 40%;
+    width: 330px;
     opacity: 0; 
 }
 @media (max-width: 767px) {
     #hero-madeby{
-    height: 30%;
+        width: 250px;
     }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-    #hero-madeby{
-        height: 35%;
-        }
 }
 .fadein1 {
     animation-name: fadein;
@@ -556,15 +551,19 @@ a.m-current-link{
     }
 .category-icons {
     margin-top: 0px;
-    width: 50%;
+    width: 167px;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
 }
 @media (max-width: 767px) {
     .category-icons {
-        width: 40%;
+        width: 140px;
     }
 }
-
+@media (min-width: 768px) and (max-width: 1024px) {
+    .category-icons {
+        width: 130px;
+    }
+}
 .category {
     display: flex;
     flex-direction: column;
