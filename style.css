@@ -405,12 +405,7 @@ a.m-current-link{
     position: absolute;
     top: 200px;
     width: 190px;   
-    animation-name: slideinv;
-    animation-duration: 2s, 2.5s;
-    animation-delay: 0ms, 2000ms;
-    animation-timing-function: ease, ease;
-    animation-iteration-count: 1, infinite;
-   
+    animation: slideinv 2s ease forwards;
 }
 
 @keyframes slideinv {
