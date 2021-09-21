@@ -286,7 +286,7 @@ button.nav-contact:hover, button.nav-contact:active {
     transition: .25s ease-in-out;
 }
 .animated-menu span {
-    background: #197B84;
+    background: #5ea2a8;
 }
 .animated-menu span:nth-child(1) {
     top: 0px;
