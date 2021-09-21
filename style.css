@@ -443,7 +443,7 @@ a.m-current-link{
 }
 @media (max-width: 767px) {
     #big-v{
-        width: 170px;
+        width: 150px;
         top: 150px;
     }
     .fly-in{
@@ -455,7 +455,7 @@ a.m-current-link{
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     #big-v{
-        width: 200px;
+        width: 150px;
         top: 30%;
     }
     .fly-in{
