@@ -96,3 +96,13 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("resize", lazyload);
     window.addEventListener("orientationChange", lazyload);
 });
+
+
+
+
+// fly in text
+$(window).load(function () {
+    setTimeout(function () {
+        $('.fly-in').removeClass('hidden');
+    }, 700);
+});

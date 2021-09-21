@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valery Nguyen</title>
-    <link rel="shortcut icon" type="image/jpg" href="logo/w-v.png">
+    <link rel="shortcut icon" type="image/jpg" href="logo/xsmall-v.png">
 
     <meta property="og:url" content="https://madebyval.github.io/logo/fb-share.png" />
     <meta property="og:type" content="website" />
@@ -38,15 +38,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Playball&display=swap"
         rel="stylesheet">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
 
 <body>
     <section class="homebg">
+        <div class="newbg"></div>
         <header>
+
             <nav class="navbar navbar-expand-md">
                 <div class="container-fluid">
                     <a class="navbar-brand nav-logo" href="index.html"><img alt="Valery Nguyen's Portfolio Home"
-                            src="logo/w-v.png"></a>
+                            src="logo/small-v.png"></a>
                     <button class="navbar-toggler collapsed menubtn" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -83,10 +88,43 @@
         </header>
 
         <div class="hero">
+
             <div class="logo-animation">
 
-                <img alt="made by" id="hero-madeby" class="changesize" src="logo/w-madeby.png">
-                <img alt="Val" id="hero-val" class="changesize" src="logo/w-val.png">
+                <img alt="made by Val logo" id="big-v" class="heart sidetoside-animate" src="logo/big-v.png">
+                <ul class="fly-in hidden">
+                    <li>
+                        <h3>M</h3>
+                    </li>
+                    <li>
+                        <h3>a</h3>
+                    </li>
+                    <li>
+                        <h3>d</h3>
+                    </li>
+                    <li>
+                        <h3>e</h3>
+                    </li>
+                    <li>&nbsp;</li>
+                    <li>
+                        <h3>b</h3>
+                    </li>
+                    <li>
+                        <h3>y</h3>
+                    </li>
+                    <li>&nbsp;</li>
+                    <li>
+                        <h3>V</h3>
+                    </li>
+                    <li>
+                        <h3>a</h3>
+                    </li>
+                    <li>
+                        <h3>l</h3>
+                    </li>
+
+                </ul>
+
             </div>
             <div id="arrow-section">
                 <button role="group" onclick=" myFunction()" class="down-icon" aria-label="Scroll to next section">
@@ -107,6 +145,7 @@
                 </button>
             </div>
         </div>
+
     </section>
 
     <main id="scrollto-main" class="main-home">
@@ -139,9 +178,9 @@
         <svg aria-hidden="true" class="separator" width="100%" height="120" viewBox="0.1 0.1 180 40"
             preserveAspectRatio="none">
             <g transform="translate(-18.298844,-77.973964)">
-                <path style="fill:#197B84;"
+                <path style="fill:#e49f85;"
                     d="M 31.615583,86.351641 H 192.16499 v 26.901969 c 0,0 -32.03411,-14.237983 -59.62682,-12.72484 -22.34188,1.2252 -54.779359,9.72634 -54.779359,9.72634 0,0 -22.029534,3.62882 -34.471238,-1.88988 -12.441702,-5.51871 -11.67199,-22.013589 -11.67199,-22.013589 z" />
-                <path style="fill:#B3DCD7;"
+                <path style="fill:#f6dfd6;"
                     d="M 18.441597,78.106256 H 198.58126 v 39.288614 c 0,0 -43.10672,-27.825245 -73.47599,-19.687823 -30.369264,8.137423 -46.832208,12.548653 -46.832208,12.548653 0,0 -32.775418,8.05972 -46.735258,0 C 17.577964,102.19598 18.441597,78.106256 18.441597,78.106256 Z" />
             </g>
         </svg>
@@ -207,7 +246,8 @@
 
     <footer>
         <span><a aria-label="Go to home page" href="index.html"><img alt="V logo" class="footer-logo"
-                    src="logo/w-v.png"></a></span>
+                    src="logo/small-v.png"></a></span>
+
         <span>
             <a class="footer-links" href="index.html">Home</a>|
             <a class="footer-links" href="about.html">About</a>|
@@ -217,7 +257,7 @@
         <span>
             <hr class="hr-short">
         </span>
-        <span>© 2021 made by Val</span>
+        <span>© 2021 Made by Val</span>
         <img alt="Scroll to top" class="icon-up scrollToTopBtn" src="images/icon-up.png">
     </footer>
 
@@ -246,6 +286,9 @@
         }
         scrollToTopBtn.addEventListener("click", scrollToTop)
         document.addEventListener("scroll", handleScroll)
+
+
+
     </script>
 
 </body>
