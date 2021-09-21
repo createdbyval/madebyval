@@ -416,14 +416,12 @@ a.m-current-link{
 @keyframes slideinv {
     0% {
         opacity: 0;
-        top: -100px;
+        transform: translateY(-100%);
         width: 300px;
 
     }
     100% {
-        opacity: 1;
-        top: 200px;
-        width: 190px;  
+        opacity: 1; 
     }
   }
 .fly-in{
@@ -446,9 +444,10 @@ a.m-current-link{
 @media (max-width: 767px) {
     #big-v{
         width: 170px;
+        top: 160px;
     }
     .fly-in{
-        top: 61%;
+        top: 55%;
     }
     .fly-in li {
         font-size: 1.4em;
