@@ -323,7 +323,7 @@ button.nav-contact:hover, button.nav-contact:active {
 @media (max-width: 767px) {
     .navbar-nav {
         text-align: left;
-        background-color:  #5ea2a8; 
+        background-color:  rgba(25,123, 132, .9);
         padding: 30px 0px;
         border-bottom: none;
     }
@@ -550,7 +550,7 @@ a.m-current-link{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #f6dfd6;
+    background-color: #5ea2a8;
        padding-top: 100px;
 }
     @media (max-width: 767px) {
