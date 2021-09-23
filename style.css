@@ -45,8 +45,8 @@ table {
 /* DONE RESET */
 
 body {
-    color: #146067;
-    background-color: #F8F4F1;
+    color: #2D717B;
+    background-color: #FCF8F3;
     font-family: 'Josefin Sans', sans-serif;
 }
 * {
@@ -85,7 +85,7 @@ button {
 }
 .hr-fade {
     border-width: 0 0 2px;
-    color: #197B84;
+    color: #2D717B;
     color: #83C5BE;
     border-image: linear-gradient(
           90deg,
@@ -101,7 +101,7 @@ hr.flair {
     overflow: visible;
     height: 20px;
     border-style: solid;
-    border-color: #197B84;
+    border-color: #2D717B;
     border-width: 1px 0 0 0;
     border-radius: 20px;
     max-width: 90%;
@@ -116,7 +116,7 @@ hr.flair:before {
     height: 30px;
     margin-top: -31px;
     border-style: solid;
-    border-color: #197B84;
+    border-color: #2D717B;
     border-width: 0 0 1px 0;
     border-radius: 20px;
     opacity: 1;
@@ -125,14 +125,14 @@ hr.flair:before {
     border: 0;
     height: 2px;
     width: 250px;
-    background-image: linear-gradient(to right, #83C5BE, #197B84, #83C5BE);
+    background-image: linear-gradient(to right, #83C5BE, #2D717B, #83C5BE);
     margin-left: auto;
     margin-right: auto;
 }
 .hr-gradient{
     border: 0;
     height: 3px;
-    background-image: linear-gradient(to right, #197B84, #83C5BE, #197B84 );
+    background-image: linear-gradient(to right, #2D717B, #83C5BE, #2D717B );
 }
 .mobileonly {
     display: none;
@@ -191,7 +191,7 @@ nav div {
 .navlink {
     padding: 10px 5px;
     margin: auto 2rem;
-    color: #197B84;
+    color: #2D717B;
     font-size: 1rem;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
@@ -216,11 +216,11 @@ nav div {
     border-style: solid;    
 }
 button.nav-contact{
-    background-image: radial-gradient(#197b84, #146067);
+    background-image: radial-gradient(#2D717B, #2D717B);
     border-radius: 20px;
     border: none;
     padding: 10px 10px 6px 10px;
-    color: #F8F4F1;
+    color: #FCF8F3;
     text-decoration: none;
     transition-duration: 0.5s;
     font-size: 13.5px; 
@@ -286,7 +286,7 @@ button.nav-contact:hover, button.nav-contact:active {
     transition: .25s ease-in-out;
 }
 .animated-menu span {
-    background: #197B84;
+    background: #2D717B;
 }
 .animated-menu span:nth-child(1) {
     top: 0px;
@@ -330,7 +330,7 @@ button.nav-contact:hover, button.nav-contact:active {
     .navbar-nav a {
         font-size: 2rem;
         padding: 13px 0px;
-        color:#F8F4F1;
+        color:#FCF8F3;
         font-family: 'Playball', cursive;
         letter-spacing: 3px;  
     }
@@ -350,7 +350,7 @@ a.m-current-link{
 
 /* HOME WELCOME HERO */
 .homebg {
-    background-color: #eee9e7;
+    background-color: #FCF8F3;
     top: 0;
     height: 100vh;
     background-size: cover;
@@ -432,7 +432,7 @@ a.m-current-link{
     margin-right: 5px;
     font-family: 'Playball', cursive;
     font-size: 1.7em;
-    color: #197B84;
+    color: #2D717B;
     opacity: 1;
     transition: all 2.8s cubic-bezier(0.6, -.005, 0.32, 1.75);
 }
@@ -507,7 +507,7 @@ a.m-current-link{
 }
 .down-icon svg{
     padding: 5px 6px 0 6px;
-    fill: #197B84;
+    fill: #2D717B;
     opacity: 0;
     width: 35px;
     height: 35px;
@@ -525,20 +525,20 @@ a.m-current-link{
     }
     50% {
     opacity: 1;
-      fill: #197B84;
+      fill: #2D717B;
       width: 40px;
       height: 33px;
     }
     100% {
         opacity: 1;
-      fill: #146067;
+      fill: #2D717B;
       width: 33px;
       height: 33px;
     }
   }
 .down-icon:hover, .down-icon:active{
     border-radius: 50%;
-    background-image: radial-gradient( #F8F4F1, #B3DCD7);
+    background-image: radial-gradient( #FCF8F3, #B3DCD7);
 }
 
 /* HOME MAIN SECTION */
@@ -561,7 +561,7 @@ a.m-current-link{
     }
 .panel{
     color: #D9704A;
-    background-color: #F8F4F1;
+    background-color: #FCF8F3;
     width: 70%;
     height: 430px;
     border-radius: 2em;
@@ -584,14 +584,14 @@ a.m-current-link{
 .panel h2{
     margin-top: 20px;
     /* color: #DF8768; */
-    color: #197b84;
+    color: #2D717B;
     /* font-weight: 800; */
     font-size: 2.5rem;
     padding-bottom: 10px;
 }
 .panel h4{
     margin-top: 10px;
-    color: #197B84;
+    color: #2D717B;
     font-size: 1.3rem;
 }
     @media (max-width: 767px) {
@@ -664,7 +664,7 @@ a.m-current-link{
 }
 footer {
     background-color: #f1eae4;
-    color:#146067;
+    color:#2D717B;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -688,7 +688,7 @@ footer {
 .footer-links {
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
-    color: #146067;
+    color: #2D717B;
     font-size: 1.1rem;
     line-height: 1.7;
     letter-spacing: 2px;
@@ -703,7 +703,7 @@ footer {
     color: #E29578;
 }
 footer span {
-    color: #146067;
+    color: #2D717B;
 }
 footer span:first-of-type {
     height: 100px;
@@ -749,7 +749,7 @@ footer span:first-of-type {
     box-shadow: 0px 0px 4px #d4d0cd;
     display: flex;
     justify-content: space-between;
-    background-color: #F8F4F1 ;
+    background-color: #FCF8F3 ;
 }
     @media (max-width: 767px) {
         .intro{
@@ -818,7 +818,7 @@ img.headshot{
     display: inline-block;
     font-family: 'Playball', cursive;
     animation: slidein2 1.5s ease-out;  
-    color: #197B84;
+    color: #2D717B;
 }
 @keyframes slidein {
     0%   { 
@@ -862,7 +862,7 @@ img.headshot{
 .main-container {
     margin: 0 5% 0 5%;
     padding: 0 10px;
-    background-color: #F8F4F1;
+    background-color: #FCF8F3;
     box-shadow: 0px 0px 6px #d4d0cd;
     border-radius: 2em;
     display:flex;
@@ -943,7 +943,7 @@ font-weight: 800;
 letter-spacing: 2px
 }
 .iconcolumn h5 {
-    color: #146067;
+    color: #2D717B;
     letter-spacing: 3px
     
     }
@@ -957,7 +957,7 @@ letter-spacing: 2px
     font-size: 1.3rem;
     padding: 25px 15px 0 15px;
     line-height: 1.5;
-    color: #197b84;
+    color: #2D717B;
 }
 @media (max-width: 767px) {
     .textcolumn {
@@ -979,7 +979,7 @@ letter-spacing: 2px
     }
 }
 .connect h3  {
-    color:#197b84;
+    color:#2D717B;
     padding-bottom: 10px;
 }
 @media (max-width: 767px) {
@@ -1029,10 +1029,10 @@ img.contact-icon:hover, img.contact-icon:active {
 .backnavigation button {
     background-color: transparent;
     border-radius: 5px;
-    border: 2px solid #197B84;
+    border: 2px solid #2D717B;
     padding-top: 10px;
     padding-bottom: 7px;
-    color: #197B84;
+    color: #2D717B;
     text-decoration: none;
     text-transform: uppercase;
     transition-duration: 0.5s;
@@ -1051,8 +1051,8 @@ img.contact-icon:hover, img.contact-icon:active {
     margin-left: 50px;
 }
 .backnavigation button:hover, .backnavigation button:active {
-    background-image: radial-gradient( #F8F4F1, #B3DCD7);
-    color: #197B84;
+    background-image: radial-gradient( #FCF8F3, #B3DCD7);
+    color: #2D717B;
 }
 
 
@@ -1074,7 +1074,7 @@ img.contact-icon:hover, img.contact-icon:active {
     box-shadow: 0px 0px 4px #d4d0cd;
     display: flex;
     justify-content: space-between;
-    background-color: #F8F4F1 ;
+    background-color: #FCF8F3 ;
 }
     @media (max-width: 767px) {
         .projects-intro{
@@ -1184,7 +1184,7 @@ img.icon-projects {
     padding-left: 50px;
     font-size: 1rem;
     line-height: 1.5;
-    color: #146067;
+    color: #2D717B;
     font-weight: 700;
 }
     @media (max-width: 767px) {
@@ -1252,12 +1252,12 @@ img:not([src]) {
         }
     }
 .projects-btn button {
-    background-image: radial-gradient( #146067, #197b84);
+    background-image: radial-gradient( #2D717B, #2D717B);
     box-shadow: 2px 2px 6px #d4d0cd;
     border-radius: 2px;
     border: none;
     padding: 10px 0 8px 0;
-    color: #F8F4F1;
+    color: #FCF8F3;
     text-decoration: none;
     transition-duration: 0.5s;
     font-size: 1.1rem;
@@ -1276,7 +1276,7 @@ img:not([src]) {
     }
 .projects-btn button:hover, .projects-btn button:active {
     background-image: radial-gradient(#E3F2F0, #83C5BE);
-    color:#146067; 
+    color:#2D717B; 
 }
 .right-arrow {
     width: 30px;
@@ -1284,7 +1284,7 @@ img:not([src]) {
 }
 .right-arrow, .project-wrapper h2 {
     display: inline-block;
-    color:#197b84;
+    color:#2D717B;
     text-shadow: 2px 1px #e4d4c9;
 }
 .popup {
@@ -1307,7 +1307,7 @@ img:not([src]) {
     text-align: center;
   }
   .pclose {
-    color: #F8F4F1;
+    color: #FCF8F3;
     font-size: 35px;
     font-weight: bold;
     width: 100%;
@@ -1386,7 +1386,7 @@ img:not([src]) {
     hyphens: auto;
     word-break: break-word;
     text-transform: uppercase;
-    color: #F8F4F1;
+    color: #FCF8F3;
     font-weight: 700;
     font-size: 1rem;
     transition: opacity 350ms;
