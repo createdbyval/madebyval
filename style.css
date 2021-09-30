@@ -216,7 +216,8 @@ nav div {
     border-style: solid;    
 }
 button.nav-contact{
-    background-image: radial-gradient(#2D717B, #2D717B);
+    background-image: radial-gradient(#3D96A4,#2D717B);
+    background-color: #2D717B;
     border-radius: 20px;
     border: none;
     padding: 7px 10px 7px 10px;
