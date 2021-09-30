@@ -216,7 +216,7 @@ nav div {
     border-style: solid;    
 }
 button.nav-contact{
-    background-image: radial-gradient(#3D96A4,#2D717B);
+    background-image: radial-gradient(#378895,#2D717B);
     background-color: #2D717B;
     border-radius: 20px;
     border: none;
@@ -1256,10 +1256,11 @@ img:not([src]) {
         }
     }
 .projects-btn button {
-    background-image: radial-gradient( #2D717B, #2D717B);
+    background-image: radial-gradient(#378895,#2D717B);
+    background-color: #2D717B;
     box-shadow: 2px 2px 6px #d4d0cd;
     border-radius: 2px;
-    border: 3px solid #2D717B;
+    border: 3px solid transparent;
     padding: 8px 0 6px 0;
     color: #f8f5f2;
     text-decoration: none;
