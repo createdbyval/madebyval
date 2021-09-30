@@ -1258,12 +1258,13 @@ img:not([src]) {
     background-image: radial-gradient( #2D717B, #2D717B);
     box-shadow: 2px 2px 6px #d4d0cd;
     border-radius: 2px;
-    border: none;
-    padding: 10px 0 8px 0;
+    border: 3px solid #2D717B;
+    padding: 8px 0 6px 0;
     color: #f8f5f2;
     text-decoration: none;
     transition-duration: 0.5s;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 500;
     width: 130px;
     margin-right: 30px;
 }
@@ -1278,8 +1279,11 @@ img:not([src]) {
         }
     }
 .projects-btn button:hover, .projects-btn button:active {
-    background-image: radial-gradient(#E3F2F0, #83C5BE);
+    background-color: transparent;
+    background-image: none;
     color:#2D717B; 
+    border: 3px solid #2D717B;
+    border-radius: 2px;
 }
 .right-arrow {
     width: 30px;
