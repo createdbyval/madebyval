@@ -192,15 +192,15 @@ nav div {
     padding: 10px 5px;
     margin: auto 2rem;
     color: #2D717B;
-    font-size: 1rem;
+    font-size: 1.7rem;
     text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
-    letter-spacing: 2px;;
-    font-weight: 700;
+    font-family: 'Playball', cursive;
+    letter-spacing: 2px;
+
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .navlink {
-        margin: auto 1rem;
+        margin: auto .8rem;
     }
 }
 
@@ -219,11 +219,13 @@ button.nav-contact{
     background-image: radial-gradient(#2D717B, #2D717B);
     border-radius: 20px;
     border: none;
-    padding: 10px 10px 6px 10px;
+    padding: 7px 10px 7px 10px;
     color: #f8f5f2;
     text-decoration: none;
     transition-duration: 0.5s;
-    font-size: 13.5px; 
+    font-size: 1.2rem; 
+    font-family: 'Playball', cursive;
+    letter-spacing: 2px;
 
 }
 button.nav-contact:hover, button.nav-contact:active {
