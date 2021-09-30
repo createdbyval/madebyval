@@ -591,10 +591,10 @@ a.m-current-link{
     font-size: 2.5rem;
     padding-bottom: 10px;
 }
-.panel h4{
+.panel p{
     margin-top: 10px;
     color: #2D717B;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
     @media (max-width: 767px) {
         .panel {
@@ -653,6 +653,7 @@ a.m-current-link{
 .c-wrapper:hover, .c-wrapper:active {
     transform:translateY(-30px);		
     transition: .5s;
+
 }
 .separator {
     margin-top: -10px;
