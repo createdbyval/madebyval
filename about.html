@@ -68,8 +68,7 @@
                         </div>
                     </div>
                     <div class="collapse navbar-collapse">
-                        <a href="mailto:madebyval@outlook.com"><button class="nav-contact"
-                                id="contact-btn">Contact</button></a>
+                        <a href="contact.html"><button class="nav-contact" id="contact-btn">Contact</button></a>
 
                     </div>
                 </div>
@@ -177,26 +176,31 @@
             </g>
         </svg>
     </div>
+    <div class="spacer"></div>
+    <section class="contact-page">
+        <div class="contact-wrap">
+            <h2>Say Hello!</h2>
+            <hr class="hr-short">
+            <form class="contactform"
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd9oI1Go3jssbaaUxDwbdQHGl8nMC_nkYUgjdDYtYQQGTgoNg/formResponse">
 
-    <section class="connect">
-        <h3>Learn more about me!
-        </h3>
-        <hr class="hr-short">
-        <div class="contact-container">
-            <div class="contact-links">
-                <a href="mailto:madebyval@outlook.com"><img alt="Email Val" class="contact-icon"
-                        src="images/icon-email.png">
-                </a>
-            </div>
+                <label class="contact-label" for="name">Name<span class="required">*</span></label>
+                <input name="entry.313522024" type="text" id="name" required>
 
-            <div class="contact-links">
-                <a target="_blank" href="https://www.linkedin.com/in/valerynguyen/"><img alt="Visit Val's LinkedIn"
-                        class="contact-icon" src="images/icon-linkedin.png">
-                </a>
-            </div>
+                <label class="contact-label" for="email">Email<span class="required">*</span></label>
+                <input name="entry.1203368697" type="email" id="email" required>
+
+                <label class="contact-label" for="message">Message<span class="required">*</span></label>
+                <textarea name="entry.1859337102" id="message" rows="4" required></textarea>
+
+                <label class="contact-label" for="quiz">Verify that you're human! What's 98 + 2?<span
+                        class="required">*</span></label>
+                <input name="entry.426728503" id="quiz" type="text" required></textarea>
+
+                <input class="send-button" type="submit" value="Send Message">
+            </form>
         </div>
     </section>
-
     <div class="wave">
         <svg aria-hidden="true" preserveAspectRatio="xMidYMax meet" class="svg-separator" viewBox="0 0 1600 100"
             data-height="100">
