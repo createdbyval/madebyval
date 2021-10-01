@@ -328,7 +328,7 @@ button.nav-contact:hover, button.nav-contact:active {
 @media (max-width: 767px) {
     .navbar-nav {
         text-align: left;
-        background-color:  rgba(45, 113, 123, 1);
+        background-color:  #2D717B;
         padding: 30px 0px;
         border-bottom: none;
     }
